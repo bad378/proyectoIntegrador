@@ -3,6 +3,13 @@ async function obtenerDatos(){
     const json = await response.json();
 
     console.log(json);
-    
+    console.log(json.Nombre);
+    json.Experiencia.forEach(elemento => {
+        console.log(elemento.cargo);
+        
+    });
+
+
+
 }
 obtenerDatos();
