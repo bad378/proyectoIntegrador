@@ -1,0 +1,97 @@
+{
+    "Nombre": "Adalberto",
+    "Apellido": "Rodriguez",
+    "Edad": "44",
+    "Direccion": "Independencia 444",
+    "Localidad": "Sarandi",
+    "Partido": "Avellaneda",
+    "Telefono": "11.3734-4456",
+    "Estado Civil": "Casado",
+    "E-mail": "adalberto-rodriguez@mail.com"
+
+    "Estudios": [
+    {
+        "anio": "1997",
+        "Institucion": "E.E.T. N° 6 'Jose Hernandez'",
+        "Titulo": "Tecnico en computacion"      
+    },
+
+    {
+        "anio": "1999",
+        "Institucion": "ESEMP NETWORK",
+        "Titulo": "Tecnico en computacion"
+    },
+    {
+        "anio": "2006",
+        "Institucion": "Brother int corp de Argentina",
+        "Titulo": "Tecnico impresoras, faxes y rotuladores"      
+    },
+    {
+        "anio": "2008",
+        "Institucion": "Brother int corp de Argentina",
+        "Titulo": "Servicio, calidad y cumplimiento"     
+    },
+    {
+        "anio": "2015",
+        "Institucion": "Open english",
+        "Titulo": "TOEFL"      
+    },
+
+    {
+         "anio": "2022",
+         "Institucion": "INTI",
+         "Titulo": "#Se programar (JavaScript, gobstones, ruby)"    
+
+    }
+    ],
+
+        
+    "Experiencia laboral": [
+        {
+            "anio": "2001-2004",
+            "empresa": "Farmacia_Once_norte",
+            "cargo": "Cadete"
+        },
+        {
+            "anio": "2005-2013",
+            "empresa": "Fit_Solutions_SA",
+            "cargo": "Gerente_Tecnico"
+        },
+        {
+            "anio": "2013-2022",
+            "empresa": "Servicios_Tecnologicos",
+            "cargo": "Emprendimiento_propio"
+        }
+    ],
+
+    "Algo mas sobre mi": [
+        {
+            "Soy alguien que": "Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Mauris nisl leo, facilisis et fermentum sed, 
+            fringilla in mauris. Nunc quis arcu eros. Duis luctus risus ac 
+            lacus cursus viverra. Sed viverra nec diam semper aliquet. 
+            Nulla ac ullamcorper quam, nec ornare velit. Vivamus efficitur 
+            sapien sit amet ornare faucibus. Ut posuere, eros ac lobortis 
+            placerat, sem eros laoreet velit, sed tincidunt metus lectus non 
+            sapien. Integer iaculis metus nec laoreet aliquam. Sed id elementum 
+            ante. Etiam egestas luctus massa quis semper. Duis interdum 
+            elementum nunc, at volutpat lacus. Vivamus porta sapien dui, 
+            at aliquam nisi ultricies sit amet. Aliquam at vulputate neque. 
+            Maecenas vitae pharetra quam, at vulputate metus.",
+
+            "Mis metas de vida incluyen": "Morbi vitae orci maximus, rutrum 
+            nequesit amet, tincidunt ipsum. Proin nisi neque, ullamcorper sit 
+            amet accumsan a, gravida in odio. Mauris tristique mauris at 
+            pellentesque blandit. Curabitur sit amet tellus quis arcu sodales 
+            interdum in ac lorem. Donec sed rutrum tellus. Mauris tincidunt 
+            facilisis diam, a vehicula est placerat eu. Sed venenatis augue 
+            nec turpis sagittis, eget consectetur nunc vestibulum. Curabitur 
+            ultrices in leo sed ornare. Nullam sed dolor vitae turpis semper 
+            tempus. 
+              Phasellus mattis consequat est eu dignissim. Nunc tincidunt 
+              elit non consectetur porttitor. Morbi feugiat enim euismod, 
+              pulvinar augue vitae, condimentum ante. Sed imperdiet efficitur 
+              vulputate. Sed laoreet gravida dui id mattis."
+                   }
+    ]
+}
