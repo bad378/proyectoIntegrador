@@ -1,5 +1,6 @@
 async function obtenerDatos(){
-    const response = await fetch("https://random-data-api.com/api/v2/users?size=2&is_xml=true");
+const response = await fetch('http://127.0.0.1:5500/proyectointegrador/cv.json');
+
     const json = await response.json();
      
     console.log(json)
