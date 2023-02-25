@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#sobremi{
+    height: 75vh;
+}
+ section{
+    height: auto;
+    margin-top: 50px;
+ }
+
+ nav {
+    display: flex;
+    flex-basis: auto;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 50px;
+ }
+.barra{
+    border: 2px solid black;
+}
+
+
+.datos ul li{
+    list-style: none;
+
+}
+
+.datos {
+    
+    margin-right: 50px;
+    margin-top: 05px;
+    margin-bottom: 3px;
+    margin-left: 500px;
+    font-style: italic;
+    
+       
+}   
+ section#presentacion h1{   
+font-size: 50px;
+}  
+
+.nombre {
+    text-align: center;
+    font-size: 30px;
+}
+
+.foto img{
+    border-radius: 60%;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 50px;
+    float: left
+}
+.principal{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section#presentacion {
+    height: 300px;
+    background-color: rgb(197, 231, 197);
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px inset black;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+   
+    
+ }
+.principal{
+  
+   
+    display: flex;
+    flex-direction: column;
+}
+
+section h1{
+    font-size: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h2{
+    font-size: 30px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+}
+section h3{
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+
+section h4{
+    font-size: 21px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+section h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+section h6{
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 12px;
+}
+section#sobremi p{
+font-size: 16px;
+margin-left: 9px;
+margin-bottom: 20px;
+}
+
+section#estudiosCursados p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    font-size: 15px;
+
+}
+section#experiencia p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    font-size: 15px;
+
+}
+
+.logo img{
+    height: auto; 
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.final{
+    margin-bottom: 25px;
+}
+
+section#presentacion p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
