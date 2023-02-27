@@ -3,15 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     background-color: rgb(221, 80, 80);
     font-size: 20px;
     margin: 0px 3px 0px 3px;
+    font-family:'Courier New', Courier, monospace
 }
 
 section{
     height: auto;
 }
+
+section h2{
+    font-size: 30px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+    justify-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+section h6{
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 12px;
+}
+
+section#volver {
+    background-color: rgb(11, 24, 100);
+    height: auto;
+    width: 180px;
+    border-radius: 80%;
+    margin: 50px 0px 50px 25px;
+}
+
+.vuelta {
+    color: aliceblue;
+    padding: 5px 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.vuelta:hover{
+    color: rgb(240, 103, 219);
+}
+
 
 section#meet {
     display: flex;
@@ -21,8 +65,6 @@ section#meet {
 section#meet p{
     font-style: italic;
     font-size: 18px;
-
-
 }
 section#meet h2{
     font-style: italic;
@@ -37,68 +79,155 @@ section#meet h3{
 .foto{
     height: 200px;
     border-radius: 60%;
-    margin-top: 30px;
+    margin-top: auto;
 }
 
 .texto{
     margin-left: 10px;
 }
 
+
 section#navegacion {
     background-color: black;
     height: auto;
 }
 
-section#navegacion h2{
-    
+section#navegacion h2 {
+    font-size: 22px;
     color:  aliceblue;
 }
+
 .barra {
-    
     color: aliceblue;
-    padding: 5px 50px;
+    padding: 5px 40px;
     text-decoration: none;
     display: inline-block;
 }
+
 .navbar{
     display: flex; 
 }
+
 .barra:hover{
     color: red;
 }
 
+
 section#datosP{
-    
     margin-top: 100px;
-    
+    border: 1 solid black;  
 }
+
 section#datosP h3{
     margin: 10px 10px 10px 20px;
     font-size: 20px;
 }
+
 section#datosP p{
     margin: 10px 0px 10px 70px;
     font-size: 17px;
 }
+
 ul li{
     list-style: none; 
 }
 
-section#volver {
-    background-color: rgb(11, 24, 100);
-    height: auto;
-    width: 180px;
-    border-radius: 80%;
-    margin: 25px 0px 30px 25px;
-}
-.vuelta {
+section#estudiosCursados img{
+    height: 40px;
+    width: auto;
+    margin-left: 80px;
     
-    color: aliceblue;
-    padding: 5px 50px;
-    text-decoration: none;
-    display: inline-block;
 }
 
-.vuelta:hover{
-    color: rgb(240, 103, 219);
+.estudios{
+    border: 2px double lightcoral;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    
+}
+.estudios h5{
+     text-align:start;
+     font-size: 25px;
+     justify-content: center;
+}
+.estudios h4{
+text-align: center;
+}
+
+.todoslosestudios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.estudios p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 12px;
+    font-size: 15px;
+}
+.estudios p.inst{
+    font-family: monospace;
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+}
+.estudios p.titulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: green;
+
+}
+.linea {
+    margin-bottom: 50px;
+}
+
+section#experiencia p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    font-size: 15px;
+    width: 400px;
+}
+section#experiencia h2{
+    margin: 20px 0px 50px 0px   
+}
+section#experiencia p.final{
+    margin-bottom: 25px;
+}
+
+.logo img{
+    height: auto; 
+    width: 100px;
+    margin: 30px 300px 0px 0px;
+    float: right;
+}
+
+
+section#contacto {
+height: 600px;
+}
+
+section#contacto p{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px; 
+}
+
+.contacto img{
+    height: 200px;
+    width: auto;      
+}
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+
 }
