@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Adalberto Rodriguez</title>
-    <link rel="stylesheet" href="estilos v3.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Playfair+Display:ital@0;1&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Mono:ital,wght@1,100&family=Roboto+Slab:wght@200&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
@@ -47,35 +47,45 @@
 
         <section id="navegacion">
             <nav class="navbar">
-                <h2><a href="#datosP" class="barra">D. Personales</a></h2>
-                <h2><a href="#estudiosCursados" class="barra">Estudios </a> </h2> 
-                <h2><a href="#experiencia" class="barra">Experiencia </a> </h2> 
-                <h2><a href="#contacto" class="barra">Contactarme</a> </h2> 
-              </nav>
+                <div class="mainmenu">
+                     <div class="menu1"><h2><a href="#datosP" class="barra">D. Personales</a></h2></div>
+                     <div class="menu"><h2><a href="#estudiosCursados" class="barra">Estudios </a> </h2> </div>
+                     <div class="menu"><h2><a href="#experiencia" class="barra">Experiencia </a> </h2></div> 
+                     <div class="menu"><h2><a href="#contacto" class="barra">Contactarme</a> </h2></div> 
+                </div>
+            </nav>
         </section>
 
         <section id="datosP">
-
-            <div class="personal">
                 <h2 class="linea">"Datos Personales"</h2>
-                <ul>
-                    <li><h3>Edad:</h3></li> <p>44 años</p>
-                    <li><h3>Direccion:</h3> </li> <p>Gral Vedia 232</p>
-                    <li><h3>Localidad:</h3></li> <p>Sarandi</p>               
-                    <li><h3>Partido:</h3></li> <p>Avellaneda</p>               
-                    <li><h3>Est. Civil:</h3></li> <p>Casado (sin hijos)</p>                     
-                    <li><h3>Disponibilidad:</h3></li> <p>Full Time</p>                
-                    <li><h3>Licencia de conducir tipo B</h3></li>  <p></p>                            
-                                       
-                 </ul> 
-            </div>
+                <div class="datospersonales">
+                          <button class="btn btn1" id="edad"><b>Edad</b> </button>
+                          <button class="btn btn2" id="direccion" ><b>Direccion</b></button>
+                          <button class="btn btn3" id="localidad"><b>Localidad</b></button>
+                          <button class="btn btn4" id="partido"><b>Partido</b></button>
+                          <button class="btn btn5" id="civil"><b>Est Civil</b></button>
+                          <button class="btn btn6" id="disponibilidad"><b>Disp. Horaria</b></button>
+                          <button class="btn btn7" id="licencia"><b>Licencia de conducir</b></button>
+                          <p class="campo" id="campos"><b>"Aqui saldra su respuesta"</b></p> 
+                          <form>
+                        
+                            <div class="respuesta">
+                           
+                        </div>
+                        
+                    </form>
+                </div>
+
             
         </section> 
 
         <section id="volver"> 
             <nav class="navup">
-                <h2><a href="#arriba" class="vuelta">A inicio</a></h2>
-                  
+                <div class="navup">
+                         <h2><a href="#arriba" class="button">
+                            <i class="fa-solid fa-house"></i>A inicio
+                        </a></h2>
+                 </div> 
             </nav>
         </section>   
          
@@ -144,7 +154,9 @@
 
         <section id="volver"> 
             <nav class="navup">
-                <h2><a href="#arriba" class="vuelta">A inicio</a></h2>    
+                <h2><a href="#arriba" class="button">
+                    <i class="fa-solid fa-house"></i>A inicio
+                </a></h2>   
             </nav>
         </section>
 
@@ -152,76 +164,69 @@
             <div class="experienciaLaboral">
                 <h2 class="linea">Experiencia laboral</h2>
 
-                <div class="lugares">
-                    <div class="logo">
-                        <img src="imagenes/esemp.jpg" alt="Logo empresarial">
-                    </div>
-                   
-                   <h5>Año: 1999-2001</h5>
-                   <p>Empresa: ESEMP NETWORK</p> 
-                   <p>Cargo: "Tecnico de Pc"</p> 
-                   <h6>Entre mis tareas se destacaba:</h6> 
-                   <p class="final">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Etiam tristique odio sit amet felis bibendum sagittis. 
-                    Quisque vulputate, urna vel volutpat elementum, dui quam 
-                    elementum enim, sit amet mollis est sapien quis odio. </p>
-
-                </div>
-
-                <div class="lugares">
-                    <div class=logo>
-                        <img src="imagenes/farmacia.jpg" alt="Logo empresarial">
-                    </div>
-                    
-                    <h5>Año: 2001-2004</h5>
-                    <p>Empresa: FARMACIA ONCE</p> 
-                    <p>Cargo: "Soporte Tecnico"</p> 
-                    <h6>Entre mis tareas se destacaba:</h6> 
-                    <p class="final">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Etiam tristique odio sit amet felis bibendum sagittis. 
-                    Quisque vulputate, urna vel volutpat elementum, dui quam 
-                    elementum enim, sit amet mollis est sapien quis odio. </p>
-
-                </div>
-
-                <div class="lugares">
-                    <div class="logo">
-                        <img src="imagenes/brother.jpg" alt="Logo empresarial">
-                    </div>
-                    
-                    <h5>Año: 2005-2012</h5>
-                    <p>Empresa: BROTHER INTERNACIONAL DE ARGENTINA</p> 
-                    <p>Cargo: "Servicio Tecnico"</p> 
-                    <h6>Entre mis tareas se destacaba:</h6> 
-                    <p class="final">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Etiam tristique odio sit amet felis bibendum sagittis. 
-                    Quisque vulputate, urna vel volutpat elementum, dui quam 
-                    elementum enim, sit amet mollis est sapien quis odio. </p>
-
-                </div>
-
-                <div class="lugares">
-                    <div class="logo">
-                        <img src="imagenes/servicios tecnologicos2.jpg">
-                    </div>
-                    
-                    <h5>Año: 2012-2023</h5>
-                    <p>Empresa: SERVICIOS TECNOLOGICOS</p>
-                    <p>Cargo:"Emprendimiento personal"</p> 
-                    <h6>Entre mis tareas se destacaba:</h6> 
-                    <p class="final">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Etiam tristique odio sit amet felis bibendum sagittis. 
-                    Quisque vulputate, urna vel volutpat elementum, dui quam 
-                    elementum enim, sit amet mollis est sapien quis odio. </p>
-
-                </div>
-
+                <ul>
+        
+                    <li>
+                        <figure>
+                            <img src="imagenes/esemp.jpg" alt="logo empresarial">
+                            <figcaption>
+                                <h5>Año: 1999-2001</h5>
+                                <h5>Cargo: "Tecnico de Pc"</h5> 
+                                <h6>Entre mis tareas se destacaba:</h6> 
+                                <p class="final">Etiam tristique odio sit amet felis </p> 
+                                <p class="final">bibendum sagittis. Quisque vulputate. </p>
+                            </figcaption>
+                        </figure>
+                        
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="imagenes/farmacia.jpg" alt="logo empresarial">
+                            <figcaption>
+                                <h5>Año: 2001-2004</h5>  
+                                <h5>Cargo: "Soporte Tecnico"</h5> 
+                                <h6>Entre mis tareas se destacaba:</h6> 
+                                <p class="final">Etiam tristique odio sit amet felis </p> 
+                                <p class="final">bibendum sagittis. Quisque vulputate. </p>
+                            </figcaption>
+                        </figure>
+                        
+                    </li>
+                    <li>
+                        <figure class="brother">
+                            <img src="imagenes/brother.jpg" alt="logo empresarial">
+                            <figcaption>
+                                <h5>Año: 2005-2012</h5>
+                                <h5>Cargo: "Servicio Tecnico"</h5> 
+                                <h6>Entre mis tareas se destacaba:</h6> 
+                                <p class="final">Etiam tristique odio sit amet felis </p> 
+                                <p class="final">bibendum sagittis. Quisque vulputate. </p>
+                            </figcaption>
+                        </figure>
+                        
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="imagenes/servicios tecnologicos2.jpg" alt="logo empresarial">
+                            <figcaption>
+                                <h5>Año: 2012-2023</h5>
+                                <h5>Cargo:"Emprendimiento personal"</h5> 
+                                <h6>Entre mis tareas se destacaba:</h6> 
+                                <p class="final">Etiam tristique odio sit amet felis </p> 
+                                <p class="final">bibendum sagittis. Quisque vulputate. </p>
+                            </figcaption>
+                        </figure>
+                                    
+                    </li>
                 
-            </div>
+                </ul>
         </section>
+
         <section id="volver"> 
             <nav class="navup">
-                <h2><a href="#arriba" class="vuelta">A inicio</a></h2>    
+                <h2><a href="#arriba" class="button">
+                    <i class="fa-solid fa-house"></i>A inicio
+                </a></h2>    
             </nav>
         </section>
 
@@ -230,36 +235,36 @@
             <h2 class="linea">Como contactarme</h2>
                         
             
-                <div class="contacto">
-                        <div id="cont">
-                            <img id="face" src="imagenes/what.jpg"  
-                            alt="contacto por facebbok"><p>(+54 9)11.9353-4876</p> 
+            <div class="contenedor">
+
+                        <div class="cont">
+                            <img id="whatsapp" src="imagenes/what.jpg"  
+                            alt="contacto por whatsapp"><p>(+54 9)11.9353-4876</p> 
                         </div>
 
-                        <div id="cont">       
-                            <img id="face" src="imagenes/mail.jpg"  
-                            alt="contacto por facebbok"><p>imaginario@gmail.com</p>
+                        <div class="cont">       
+                            <img id="E-mail" src="imagenes/mail.jpg"  
+                            alt="contacto por E-mail"><p>imaginario@gmail.com</p>
                         </div>
 
-                        <div id="cont">
+                        <div class="cont">
                              <a href="//www.facebook.com">
                              <img id="face" src="imagenes/face.jpg"  
-                             alt="contacto por facebbok"></a> <p>Click en el logo</p>
+                             alt="contacto por facebook"></a> <p>Click en el logo</p>
                         </div>
 
-                        <div id="cont">
+                        <div class="cont">
                              <a href="//www.instagram.com">
                              <img id="inst" src="imagenes/insta.jpg"  
                              alt="contacto por instagram"></a><p>Click en el logo</p>
                         </div>  
-                </div>
+            </div>
             
 
         </section>
     </main>
-    <footer></footer>
+    
 
-
+  <script src="js/v4.js"></script>
 </body>
 </html>
-
